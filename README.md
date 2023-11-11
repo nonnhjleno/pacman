@@ -18,5 +18,10 @@
 - 所属: 情報研究部 Webチーム
 - GitHub: [suzuki-fish](https://github.com/suzuki-fish/)
 
+- 作成者: 宮城県工業高等学校 情報技術科3年16番 金野太誓
+- 所属: 情報研究部 Webチーム
+- E-mail: taaaisei999@gmail.com
+- GitHub: [Nonnhjleno](https://github.com/nonnhjleno/)
+
 # License
 The source code is licensed MIT. The website content is licensed CC BY 4.0,see LICENSE.
