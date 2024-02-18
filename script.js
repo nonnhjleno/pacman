@@ -68,7 +68,7 @@ const submit = document.querySelector('.submit');
 let highCount = 0;
 let lowCount = 0;
 const level = document.querySelector('.level');
-let usernamed;
+let namedUser;
 const textBox = document.getElementById('name');
 console.log('動いてます');
 
@@ -98,7 +98,7 @@ async function userSearch () {
             } else {
               message.innerHTML = `ユーザー「${data.username}」を作成しました。`;
               playStyle = 'named';
-              usernamed = data.username;
+              namedUser = data.username;
             }
           })
           .finally(() => {
@@ -119,7 +119,7 @@ async function userSearch () {
             if (username == data[0].username) {
               message.innerHTML = `ようこそ「${data[0].username}」さん。startを押してゲームを始めてください。`;
               startBtn.disabled = false;
-              usernamed = data[0].username;
+              namedUser = data[0].username;
             } else {
               if (textBox.value != '') {
                 message.innerHTML = `もしかして${data[0].username}`;
@@ -722,7 +722,7 @@ function addEvent() {
           }
           if (playStyle !== 'play') {
             putData(idNumber,scoreNum);
-            document.querySelector('.name').innerHTML = usernamed;
+            document.querySelector('.name').innerHTML = namedUser;
           } else {
             document.querySelector('.name').innerHTML = `${textBox.value}`;
           }
