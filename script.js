@@ -150,16 +150,16 @@ const fastContent = document.querySelector('.top');
 let playStyle;
 
 //playStyleの変更(アカウントを作成してやるか、入場した時に作成したアカウントでやるか)
-function chengeUser(num) {
-  if (num == 1) {
-    playStyle = 'guest'; // アカウント作成します
-  } else if (num == 2) {
-    playStyle = 'named'; // 名前入力します
-  } else {
-    playStyle = 'play'; // ただ遊ぶモード
-  }
-  fastContent.style.display = 'none';
-}
+// function changeUser(num) {
+//   if (num == 1) {
+//     playStyle = 'guest'; // アカウント作成します
+//   } else if (num == 2) {
+//     playStyle = 'named'; // 名前入力します
+//   } else {
+//     playStyle = 'play'; // ただ遊ぶモード
+//   }
+//   fastContent.style.display = 'none';
+// }
 
 
 //スタート押したら実行
