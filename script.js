@@ -134,6 +134,7 @@ function addEvent() {
   const mazeTable = document.getElementById('maze');
   const countDownBoard = document.querySelector('.count_down');
   title.classList.add('close');
+  document.querySelector('.restart').style.display = 'none';
 
   //最初のカウントダウン
   countDownBoard.classList.remove('close');
@@ -712,6 +713,8 @@ function addEvent() {
 const handleReload = () => {
   window.location.reload();
 }
+
+document.querySelector('.restart button').addEventListener('click', () => fastContent.style.display = 'flex');
 
 const mazeDataList = [
   [

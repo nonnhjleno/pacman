@@ -186,6 +186,18 @@ select {
   height: 22px;
 }
 
+.restart button {
+  border: white 1px solid;
+  background-color: black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.restart button:hover{
+  background-color: white;
+  color: black;
+}
+
 .title h1 {
   margin-bottom: 5px;
 }
