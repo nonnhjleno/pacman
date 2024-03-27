@@ -107,7 +107,8 @@ function changeUser(num) {
   } else if (num == 2) {
     playStyle = 'named'; // 名前入力します
   } else {
-    playStyle = 'play'; // ただ遊ぶモード
+    playStyle = 'play'; // すぐにプレイモード
+    addEvent();
   }
   fastContent.style.display = 'none';
 }
