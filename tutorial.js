@@ -209,7 +209,7 @@ for (let row = 0; row < numRows; row++) {
     }
 
     let count = 0;
-    function turoeial() {
+    function tutorial() {
       fast.style.display = 'none';
       if (count == 0) {
         count++;
